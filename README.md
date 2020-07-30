@@ -1,4 +1,4 @@
-# Chrome Mock Response
+# Chrome Response Mocker
 
 ## Overview
 This Node.js tool uses Chrome Debugging Protocol to intercept Network calls made from target Chrome instance. It also maintains repository of responses to be returned when specific URL pattern and Method match.
@@ -41,6 +41,12 @@ This tool has following components:
 
 ### Start Configuration Api Server and Request Handler
   Execute `npm run start` to  start Configuration Api Server as well as request handler
+
+## How to use this tool
+
+Start Configuration Api Server and Chrome Request interceptr using above command. This will automatically launch Chrome browser instance with Chrome DevTools opened. Enter tartet URL in that chrome instance for which you want to intercept and mock the response.
+
+You the above mentioned API endpoints (and attached postman collection) to add/update configuration objects containing the URL pattern and desired responses.
 
 ## Other resources
   [Postman Collection for Configuration Sever APIs](postman_collection.json)
