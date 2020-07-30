@@ -50,7 +50,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"pattern\": \"*/aaa/user-info/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
+					"raw": "{\n    \"pattern\": \"*/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -78,7 +78,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"pattern\": \"*/aaa/user-info/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
+					"raw": "{\n    \"pattern\": \"*/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
