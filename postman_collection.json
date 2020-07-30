@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "4e3366cd-a2a8-4061-9b04-f9a869298fc4",
+		"name": "Chrome Response Mocker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4300/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4300",
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Config By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4300/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4300",
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pattern\": \"*/aaa/user-info/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4300/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4300",
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pattern\": \"*/aaa/user-info/permissions\",\n    \"response\": {\n        \"code\": 400,\n        \"body\": \"Error Occured from Mock Server\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4300/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4300",
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

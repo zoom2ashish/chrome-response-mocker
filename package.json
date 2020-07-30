@@ -1,0 +1,24 @@
+{
+  "name": "chrome-mock-response",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock-response.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Patel <ashishp@vmware.com>",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "chrome-launcher": "^0.13.2",
+    "chrome-remote-interface": "^0.28.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15"
+  }
+}
